@@ -7,15 +7,13 @@ C 언어와 Win32 API를 활용하여 구현한 오목(Gomoku) 게임입니다.
 
 ## 프로젝트 구조
 ```
-project
-├── main.c # 진입점
-├── omok_ai.c / .h # AI 수 계산 및 난이도 로직
-├── omok_logic.c / .h # 승리 조건, 규칙 처리
-├── omok_ui.c / .h # UI 및 입력 처리
-├── omok_global.h # 전역 변수 모음
-├── project.vcxproj # Visual Studio 프로젝트 파일
-├── .gitignore # 빌드 파일 제외 설정
-└── (x64/, Debug/ 등 빌드 산출물은 Git에서 제외됨)
+main.c # 진입점
+omok_ai.c / .h # AI 수 계산 및 난이도 로직
+omok_logic.c / .h # 승리 조건, 규칙 처리
+omok_ui.c / .h # UI 및 입력 처리
+omok_global.h # 전역 변수 모음
+project.vcxproj # Visual Studio 프로젝트 파일
+.gitignore # 빌드 파일 제외 설정 (x64/, Debug/ 등 빌드 산출물은 Git에서 제외됨)
 ```
 
 
